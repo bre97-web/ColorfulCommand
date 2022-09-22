@@ -19,11 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\LMSystem\LMSystem\LMSystem\Console.c" />
+    <ClCompile Include="Console.c" />
+    <ClCompile Include="Graphics.c" />
     <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\LMSystem\LMSystem\LMSystem\com.rmdust.Console.h" />
+    <ClInclude Include="com.rmdust.Color.h" />
+    <ClInclude Include="com.rmdust.Console.h" />
+    <ClInclude Include="com.rmdust.Graphics.h" />
     <ClInclude Include="Main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

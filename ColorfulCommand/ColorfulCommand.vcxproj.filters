@@ -16,21 +16,36 @@
     <Filter Include="源文件\com.Rmdust.Console">
       <UniqueIdentifier>{4856b860-4f0d-4f56-b80c-7a2382df8a35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\com.rmdust.Graphics">
+      <UniqueIdentifier>{eac9193f-07a5-4d15-944e-75ddb54d712e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\con.rmdust.Color">
+      <UniqueIdentifier>{2aa71b2b-aaf3-48d8-8b26-bca3c35a5615}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\LMSystem\LMSystem\LMSystem\Console.c">
+    <ClCompile Include="Console.c">
       <Filter>源文件\com.Rmdust.Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.c">
+      <Filter>源文件\com.rmdust.Graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\LMSystem\LMSystem\LMSystem\com.rmdust.Console.h">
+    <ClInclude Include="com.rmdust.Console.h">
       <Filter>源文件\com.Rmdust.Console</Filter>
+    </ClInclude>
+    <ClInclude Include="com.rmdust.Graphics.h">
+      <Filter>源文件\com.rmdust.Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="com.rmdust.Color.h">
+      <Filter>源文件\con.rmdust.Color</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
